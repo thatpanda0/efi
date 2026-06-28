@@ -1,4 +1,4 @@
-# Hackintosh EFI Dump | Sequoia 15.7.3 on ThinkPad X1 Yoga-4th
+# Hackintosh EFI Dump | Sequoia 15.7.3 on ThinkPad X1 Yoga-1st
 
 ### NOTE: You WILL need a USB drive with ~32GB storage, AND a second computer (with internet) to fix WiFi issues. WiFi does NOT work out of the box.
 
@@ -46,7 +46,4 @@ This is expected; WiFi will NOT work out of the box because we require root patc
 
 https://github.com/randomappleboi/Native-Wifi-for-Hackintoshes-with-Intel-Wireless-cards-on-macOS-sequoia
 
-Alternatively, check usage.md in the Post-Install Patching > WiFi and Bluetooth section. 
-    *   `bluetoothExternalDongleFailed` = `00`
-    *   `bluetoothInternalControllerInfo` = `0000000000000000000000000000`
-2.  **Save and Reboot.** If Bluetooth fails, reset NVRAM a few times.
+Alternatively, check usage.md in the Post-Install Patching > WiFi and Bluetooth section. .
