@@ -18,22 +18,23 @@ It should take more or less than 40-60 seconds to boot (looking into this issue)
 - Touchpad (and buttons)
 - TrackPoint (very slow)
 - *MOST* ports
-    * >= USB 2.0 on all USB-A ports work
+    * USB 2.0 on all USB-A ports work
     * HDMI works
     * Headphone jack works
     * Audio buttons, power key works
     * Charging works (duh)
+- Bluetooth (with AirportItlwm spoof)
+- WiFi (with AirportItlwm spoof)
 
 ## Not tested / Partial
 
-- Bluetooth support: Randomly disconnects, unpredictable during testing
 - Ports (not tested): Mini DisplayPort, SD card slot
 
 ## Does not work
 
-- Fingerprint reader (no, ThinkPads do not magically have a T2 chip)
-- Continuity features
-- WiFi (needs root patching)
+- Fingerprint reader
+- Continuity features/AirDrop
+- ThinkPad Pen Pro (looking into this)
 
 
 ## My WiFi doesn't work
